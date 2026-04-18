@@ -12,3 +12,16 @@
 .main-content h3 {
   color: #0033A0;
 }
+
+.main-content {
+  max-width: 900px;
+}
+
+.main-content a {
+  font-weight: 600;
+}
+
+.main-content ul,
+.main-content ol {
+  margin-bottom: 1rem;
+}
