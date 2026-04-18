@@ -1,3 +1,9 @@
+---
+title: Runbooks
+nav_order: 2
+has_children: true
+---
+
 # Runbooks
 
 Los runbooks documentan procedimientos operativos reutilizables para responder a incidentes o ejecutar tareas recurrentes con mayor consistencia.

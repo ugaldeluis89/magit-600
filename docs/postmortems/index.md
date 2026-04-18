@@ -1,3 +1,9 @@
+---
+title: Postmortems
+nav_order: 3
+has_children: true
+---
+
 # Postmortems
 
 Los postmortems permiten capturar contexto, causa raíz, impacto y acciones de mejora a partir de incidentes relevantes.
@@ -5,4 +11,4 @@ Los postmortems permiten capturar contexto, causa raíz, impacto y acciones de m
 ## Contenido disponible
 
 - [API Latency Spike](postmortem-api-latency.md)
-- [Failed Deployment Rollback](postmortem-failed-deployment-rollback-2026-04.md)
+- [Failed Deployment and Rollback](postmortem-failed-deployment-rollback-2026-04.md)

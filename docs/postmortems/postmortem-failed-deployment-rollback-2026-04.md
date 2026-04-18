@@ -1,3 +1,9 @@
+---
+title: Failed Deployment and Rollback
+parent: Postmortems
+nav_order: 2
+---
+
 # Postmortem: Failed Deployment and Rollback
 
 ## Summary
@@ -12,13 +18,8 @@ The incident caused degraded application behavior during a limited interval.
 
 The change was introduced without sufficient validation coverage for an edge case in the deployment path.
 
-## Resolution
-
-The team rolled back to the previous stable version and monitored service recovery.
-
 ## Follow-up actions
 
 - strengthen pull request validation criteria
 - improve deployment checks
 - update the relevant runbook
-- document rollback expectations more clearly

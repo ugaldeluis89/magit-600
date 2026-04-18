@@ -1,3 +1,9 @@
+---
+title: Architecture
+nav_order: 5
+has_children: true
+---
+
 # Architecture
 
 Esta sección reúne documentos conceptuales sobre el modelo de gestión del conocimiento y su relación con prácticas SRE.

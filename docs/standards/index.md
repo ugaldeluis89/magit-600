@@ -1,3 +1,9 @@
+---
+title: Standards
+nav_order: 4
+has_children: true
+---
+
 # Standards
 
 Esta sección contiene lineamientos y convenciones que permiten mantener consistencia, calidad y reutilización del conocimiento documentado.
