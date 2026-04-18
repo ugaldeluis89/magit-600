@@ -1,4 +1,4 @@
-title: "GitHub como KMS para un equipo SRE"
+title: "MAGIT-600"
 description: "MAGIT-600 – Sistemas para la Gestión de la Información Empresarial"
 remote_theme: just-the-docs/just-the-docs
 
@@ -15,7 +15,7 @@ aux_links:
   "Ver repositorio en GitHub":
     - "https://github.com/ugaldeluis89/magit-600"
 
-color_scheme: light
+color_scheme: dark
 back_to_top: true
 back_to_top_text: "Volver arriba"
-footer_content: "Luis Andrés Ugalde Mena · MAGIT-600 · Universidad Fidélitas · 2026"
+footer_content: "Luis Andrés Ugalde Mena · MAGIT-600 · Universidad Fidélitas · 2026" 
