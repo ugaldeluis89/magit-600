@@ -1,33 +1,69 @@
-# GitHub como KMS para un equipo SRE
+# Gestión del conocimiento en equipos SRE usando GitHub
 
-Este sitio corresponde al demo académico del repositorio **magit-600**, orientado a mostrar cómo GitHub puede utilizarse como una plataforma de gestión del conocimiento para un equipo de Site Reliability Engineering (SRE).
+Este sitio presenta un demo académico de cómo un repositorio GitHub puede estructurarse como un sistema de gestión del conocimiento (KMS) para un equipo de Site Reliability Engineering (SRE).
 
-## Propósito
+---
 
-El objetivo del demo es evidenciar cómo un repositorio bien estructurado puede apoyar la operación diaria del equipo mediante:
+## ¿Qué demuestra este repositorio?
 
-- runbooks reutilizables
-- postmortems documentados
+Este demo ilustra cómo integrar la gestión del conocimiento dentro del flujo operativo mediante:
+
+- documentación reutilizable (runbooks)
+- aprendizaje estructurado (postmortems)
 - estándares de documentación
-- trazabilidad mediante pull requests
-- validaciones automáticas con GitHub Actions
+- validación mediante pull requests
+- automatización con GitHub Actions
 
-## Secciones
+---
 
-- [Runbooks](runbooks/index.md)
-- [Postmortems](postmortems/index.md)
-- [Standards](standards/index.md)
-- [Architecture](architecture/index.md)
+## Estructura del conocimiento
 
-## Flujo propuesto
+El conocimiento se organiza en cuatro áreas principales:
 
-1. Se identifica una necesidad, incidente o mejora.
-2. Se documenta mediante issue o template.
-3. Se actualiza el conocimiento en una rama.
-4. Se revisa mediante pull request.
-5. Se ejecutan validaciones automáticas.
-6. Se integra el contenido aprobado y queda disponible para reutilización.
+### 📘 Runbooks
+Procedimientos operativos para la resolución de incidentes y tareas recurrentes  
+👉 [Ver runbooks](runbooks/index.md)
+
+### 📗 Postmortems
+Análisis de incidentes y lecciones aprendidas  
+👉 [Ver postmortems](postmortems/index.md)
+
+### 📙 Standards
+Lineamientos y criterios de documentación  
+👉 [Ver standards](standards/index.md)
+
+### 📕 Architecture
+Modelo conceptual de gestión del conocimiento  
+👉 [Ver arquitectura](architecture/index.md)
+
+---
+
+## Flujo de gestión del conocimiento
+
+El modelo implementado sigue un flujo estructurado:
+
+1. Se identifica un incidente o necesidad
+2. Se documenta mediante templates
+3. Se propone un cambio mediante pull request
+4. Se valida automáticamente
+5. Se aprueba y versiona el conocimiento
+6. Se reutiliza en la operación
+
+---
+
+## Relación con SRE
+
+Este enfoque permite:
+
+- reducir la dependencia de conocimiento tácito
+- mejorar la consistencia operativa
+- acelerar la resolución de incidentes
+- facilitar la colaboración entre zonas horarias
+- disminuir el trabajo manual repetitivo (\textit{toil})
+
+---
 
 ## Nota
 
-Este contenido es únicamente demostrativo y no contiene información sensible ni referencias reales a plataformas productivas.
+Este sitio corresponde a un entorno de demostración.  
+No contiene información sensible ni refleja sistemas productivos reales.
