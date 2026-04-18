@@ -15,7 +15,7 @@ aux_links:
   "Ver repositorio en GitHub":
     - "https://github.com/ugaldeluis89/magit-600"
 
-color_scheme: dark
+color_scheme: light
 back_to_top: true
 back_to_top_text: "Volver arriba"
 footer_content: "Luis Andrés Ugalde Mena · MAGIT-600 · Universidad Fidélitas · 2026" 
