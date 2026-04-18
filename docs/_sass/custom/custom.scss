@@ -1,0 +1,40 @@
+.site-title {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.site-header {
+  border-bottom: 3px solid #0033A0;
+}
+
+.main-content h1 {
+  color: #111827;
+  font-weight: 700;
+}
+
+.main-content h2,
+.main-content h3 {
+  color: #0033A0;
+}
+
+blockquote {
+  border-left: 4px solid #0033A0;
+  color: #374151;
+  background: #f8fafc;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+}
+
+.main-content {
+  max-width: 920px;
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  border-radius: 6px;
+}
+
+.nav-list .nav-list-item .nav-list-link.active {
+  background-color: #e8f0fe;
+  color: #0033A0;
+  font-weight: 600;
+}
