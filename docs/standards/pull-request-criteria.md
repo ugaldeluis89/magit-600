@@ -1,3 +1,9 @@
+---
+title: Pull Request Criteria
+parent: Standards
+nav_order: 2
+---
+
 # Pull Request Criteria
 
 ## Objective
@@ -13,13 +19,3 @@ A pull request should:
 - follow the repository structure
 - avoid sensitive information
 - pass markdown and structure validation
-- link the related issue when applicable
-
-## Reviewer expectations
-
-Reviewers should verify:
-
-- clarity of the content
-- operational usefulness
-- consistency with repository standards
-- correctness of links and formatting

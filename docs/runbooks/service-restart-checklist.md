@@ -1,3 +1,9 @@
+---
+title: Service Restart Checklist
+parent: Runbooks
+nav_order: 3
+---
+
 # Runbook: Service Restart Checklist
 
 ## Purpose
@@ -19,16 +25,3 @@ Provide a controlled checklist for restarting a service while reducing operation
 4. Capture the current health status.
 5. Execute the restart using the approved procedure.
 6. Monitor the service during stabilization.
-
-## Validation
-
-After the restart:
-
-- confirm the service is healthy
-- validate latency and error indicators
-- verify dependent services are unaffected
-- document the outcome
-
-## Escalation
-
-Escalate if the restart fails, if the service does not recover, or if impact expands to additional components.

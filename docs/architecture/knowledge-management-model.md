@@ -1,3 +1,9 @@
+---
+title: Knowledge Management Model
+parent: Architecture
+nav_order: 1
+---
+
 # Knowledge Management Model
 
 ## Overview
@@ -11,7 +17,3 @@ The repository is structured to support a practical knowledge management model f
 - version knowledge through Git
 - reuse knowledge in future operational events
 - improve continuously through postmortems and standards
-
-## Expected value
-
-This approach helps reduce dependence on tacit knowledge and improves consistency across distributed operations.

@@ -1,3 +1,9 @@
+---
+title: SRE Knowledge Flow
+parent: Architecture
+nav_order: 2
+---
+
 # SRE Knowledge Flow
 
 ## Overview
@@ -12,12 +18,3 @@ In SRE environments, knowledge is often generated during incidents, operational 
 4. Validation checks are executed.
 5. Approved knowledge is published.
 6. The content is reused in future incidents and reviews.
-
-## Alignment with SRE
-
-This flow supports:
-
-- observability-informed response
-- operational consistency
-- learning from incidents
-- reduced toil through automation
